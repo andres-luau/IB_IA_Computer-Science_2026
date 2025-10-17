@@ -1,0 +1,23 @@
+{
+  "name": "IA2026",
+  "tree": {
+    "$className": "DataModel",
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "PlayerMainConfig": {
+          "$path": "src/PlayerMainConfig.client.lua"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "MainGame": {
+        "$path": "src/MainGame.server.lua"
+      }
+    }
+  }
+}
